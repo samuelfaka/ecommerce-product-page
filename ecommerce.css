@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.puma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    scale: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.desktop{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.mobile3{
+    display: flex;
+}
+.mobile2{
+    background-color: white;
+    width: 14vw;
+    height: 90vh;
+    box-shadow: 1px 5px 10px rgb(214, 235, 253);
+}
+.mobile1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    cursor: pointer;
+    padding: 20px;
+}
+.mobile{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.q5{
+    height: 3vh;
+}
+.q{
+    display: none;
+    cursor: pointer;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 13px;
+}
+.q1{
+    height: 6vh;
+}
+.q2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.q3{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.q4{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.hr{
+    width: 56vw;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.p{
+    height: 50vh;
+    width: 24vw;
+    border-radius: 10px;
+}
+.p1{
+    height: 10vh;
+    border-radius: 8px;
+    opacity: 2;
+}
+.p2{
+    border: 2px solid darkorange;
+    width: 68px;
+    height: 68px;
+    border-radius: 10px;
+}
+.p3{
+    height: 10vh;
+    border-radius: 8px;
+}
+.p4{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    gap: 20px;
+}
+.p5{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.k{
+    font-size: 12px;
+}
+.k1{
+    font-size: 30px;
+    width: 20vw;
+}
+.k2{
+    font-size: 13px;
+    color: gray;
+    width: 28vw;
+}
+.k3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.k4{
+    font-size: 20px;
+}
+.k5{
+    font-size: 14px;
+}
+.k6{
+    background-color: black;
+    width: 3vw;
+    height: 3vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.k7{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ka{
+    text-decoration: line-through;
+    font-size: 12px;
+    display: none;
+}
+.k8{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.k9{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.k10{
+    background-color: aliceblue;
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.k11{
+    height: 3vh;
+}
+.k12{
+    font-size: 13px;
+    color: rgb(14, 1, 26);
+}
+.k13{
+    background-color: darkorange;
+    height: 6vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.k14{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.k15{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.kk{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.k16{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pk{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.qpk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+    background-color: rgb(252, 252, 252);
+}
+.pot{
+    padding-left: 80px;
+}
+.n{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.n1{
+    display: flex;
+    align-items: center;
+}
+.ll{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width:950px) {
+    .mobile2{
+        background-color: white;
+        width: 50vw;
+        height: 147vh;
+        box-shadow: none;
+    }
+    .ll{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .ul{
+        display: none;
+        flex-direction: column;
+    }
+    .play{
+        display: flex;
+    }
+    .q{
+        display: list-item;
+        display: flex;
+    }
+    .pk{
+        flex-direction: column;
+    }
+    .pk{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    .qpk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 159vh;
+        gap: 20px;
+    }
+    .k1{
+        font-size: 30px;
+        width: 70vw;
+    }
+    .pot{
+        padding-left: 0px;
+    }
+    .k2{
+        font-size: 13px;
+        width: 70vw;
+    }
+    .k6{
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .k15{
+        display: flex;
+        flex-direction: column;
+    }
+    .k10{
+    width: 80vw;
+    height: 7vh;
+    }
+    .k9{
+        display: flex;
+        align-items: center;
+        gap: 125px;
+    }
+    .k13{
+        height: 7vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+    }
+    .k8{
+        display: none;
+    }
+    .ka{
+        text-decoration: line-through;
+        font-size: 12px;
+        display: none;
+        display: list-item;
+        list-style: none;
+    }
+    .n1{
+        display: flex;
+        align-items: center;
+        gap: 140px;
+    }
+    .p{
+        height: 50vh;
+        width: 72vw;
+    }
+    .p2{
+        border: 2px solid darkorange;
+        width: 59px;
+        height: 59px;
+        border-radius: 10px;
+    }
+    .hr{
+        display: none;
+    }
+    .q4{
+        display: flex;
+        align-items: center;
+        gap: 75px;
+    }
+    .q2{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .q1{
+        height: 5vh;
+    }
+    .mobile{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
